@@ -1,5 +1,5 @@
-def get_data_from_string(data):
-    list = data.split('\n')
+def get_data_from_string(data, split_char='\n'):
+    list = data.split(split_char)
 
     while '' in list:
         list.remove('')
