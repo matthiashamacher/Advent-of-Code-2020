@@ -1,5 +1,4 @@
-data = [
-
-]
-result_part1 = 524
-result_part2 = 485
+data = """
+"""
+result_part1 = None
+result_part2 = None
