@@ -4,6 +4,7 @@ import day3.main
 import day4.main
 import day5.main
 import day6.main
+import day7.main
 import dayX.main
 
 
@@ -32,6 +33,10 @@ if __name__ == '__main__':
     print('===================')
     print('')
     day6.main.main()
+    print('')
+    print('===================')
+    print('')
+    day7.main.main()
     print('')
     print('===================')
     print('')
