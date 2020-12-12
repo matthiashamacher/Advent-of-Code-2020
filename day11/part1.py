@@ -1,5 +1,5 @@
 import functions
-import day_functions
+import day11.day_functions
 import copy
 
 
@@ -12,7 +12,7 @@ def test(data):
 
 
 def function(input):
-    seat_map = day_functions.get_seat_map(input)
+    seat_map = day11.day_functions.get_seat_map(input)
     changed = True
     occupied_seats = 0
 
