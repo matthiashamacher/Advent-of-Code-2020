@@ -2,9 +2,11 @@ import day5.part1
 import day5.part2
 import day5.data
 import day5.example_data
+from datetime import datetime
 
 
 def main():
+    start_time = datetime.now()
     result_part1 = day5.part1.main(day5.data)
     test_result_part1 = day5.part1.test(day5.example_data)
     result_part2 = day5.part2.main(day5.data)
@@ -50,6 +52,10 @@ def main():
             print('')
             print('Part 2')
             print('Answer: ' + str(result_part2))
+
+    end_time = datetime.now()
+    print('')
+    print('Duration: ', format(end_time - start_time))
 
 
 if __name__ == '__main__':
